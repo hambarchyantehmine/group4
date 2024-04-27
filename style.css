@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Tehmine*/
+
+.Tehmine_header{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+ 
+/*Mariam*/
+
+.Mariam_what-we-do{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+/*Tehmine*/
+
+.Tehmine_Testimonials{
+    width: 100%;
+    height: 100vh;
+    background-color:blue;
+}
+
+/*Shushan*/
+
+.Shushan_Gallery{
+    width: 100%;
+    height: 100vh;
+    background-color:greenyellow;
+}
+
+/*Vahe*/
+
+.Vahe_Contact{
+    width: 100%;
+    height: 100vh;
+    background-color:orange;
+}
