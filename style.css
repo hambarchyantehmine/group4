@@ -193,8 +193,203 @@ li{
 .Tehmine_Testimonials{
     width: 100%;
     height: 100vh;
-    background-color:blue;
+    background-image: url(./img/Tehmine_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+.Tehmine_Testimonials_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+.Testimonials_title{
+    font-size: 2.6rem;
+    color: white;
+    padding: 20px;
+}
+.Testimonials_text{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Tboxs{
+    position: relative;
+    width:80%;
+   overflow: hidden;
+   padding: 0 50px;
+
+}
+.Tbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+.Tbox img{
+   border-radius: 50%;
+    transition: all 0.15s ease;
+    margin: 10px;
+    transform: translateX(50% );
+}
+.Tbox input{
+    display: none;
+}
+.Timg{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+
+    
+}
+.Timg label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(182, 181, 181);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    
+}
+.Tehmine1{
+   width: 550px;
+}
+.Tehmine2{
+    width: 550px;
+}
+.Tehmine3{
+    width: 550px;
+}
+
+.Tehmine4{
+    display: none;
+}
+.Tehmine5{
+    display: none;
+}
+.Tmm1{
+    font-size: 15px;
+    line-height: 1.8em;
+    color: white;
+    margin: 0 0 1rem;
+    text-align: justify;
+}
+.Tm1{
+    text-align: right;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: white;
+}
+.Timg label:hover {
+  background: white;
+}
+
+#img2:checked ~ .Tehmine1{
+    display: none;
+    }
+ #img2:checked ~ .Tehmine4{
+        display: inline;
+        }
+ #img3:checked ~ .Tehmine1{
+            display: none;
+            }
+ #img3:checked ~ .Tehmine2{
+        display: none;
+        }
+ #img3:checked ~ .Tehmine4{
+       display: inline;
+        }
+  #img3:checked ~ .Tehmine5{
+   display: inline;
+} 
+
+.Tnone{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    .Tnone{
+       display: inline;
+    }
+    .Tboxs{
+        width: 40%;
+    }
+    #img1:checked  ~ .Tehmine2{
+        display: none;
+    }
+    #img1:checked  ~ .Tehmine3{
+        display: none;
+    }
+
+    #img2:checked ~ .Tehmine1{
+        display: none;
+        }
+    #img2:checked ~ .Tehmine3{
+            display: none;
+            }
+     #img2:checked ~ .Tehmine4{
+            display: none;
+            }
+     #img3:checked ~ .Tehmine1{
+                display: none;
+                }
+     #img3:checked ~ .Tehmine2{
+            display: none;
+            }
+     #img3:checked ~ .Tehmine4{
+           display: none;
+            }
+      #img3:checked ~ .Tehmine5{
+       display: none;
+    } 
+    #img4:checked ~ .Tehmine1{
+        display: none;
+     } 
+     #img4:checked ~ .Tehmine2{
+        display: none;
+     } 
+     #img4:checked ~ .Tehmine3{
+        display: none;
+     } 
+     #img4:checked ~ .Tehmine5{
+        display: none;
+     } 
+     #img4:checked ~ .Tehmine4{
+        display:inline;
+     } 
+     #img5:checked ~ .Tehmine1{
+        display:none;
+     } 
+     #img5:checked ~ .Tehmine2{
+        display:none;
+     } 
+     #img5:checked ~ .Tehmine3{
+        display:none;
+     } 
+     #img5:checked ~ .Tehmine4{
+        display:none;
+     } 
+     #img5:checked ~ .Tehmine5{
+        display:inline;
+     } 
+}
+
+
+
 
 /*Shushan*/
 
