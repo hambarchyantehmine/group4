@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"Raleway", sans-serif;
-}
 
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
 /*Tehmine*/
 
 .Tehmine_header{
@@ -184,7 +188,6 @@ li{
 
 .Mariam_what-we-do{
     width: 100%;
-    height: 100vh;
     padding: 100px 90px;
     font-family: "Raleway", sans-serif;
 }
@@ -391,6 +394,7 @@ li{
     .Mariam_button{
         padding: 14px 34px;
     }
+  
 }
 /*Tehmine*/
 
@@ -448,16 +452,16 @@ main{
     transition: all 0.15s ease;
     margin: 10px;
     transform: translateX(50% );
+
 }
 .Tbox input{
     display: none;
 }
+
 .Timg{
     display: flex;
     justify-content: center;
     margin:50px;
-
-    
 }
 .Timg label{
     height: 20px;
@@ -495,7 +499,7 @@ main{
 .Tm1{
     text-align: right;
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 20px;
     color: white;
 }
 .Timg label:hover {
@@ -532,6 +536,7 @@ main{
     .Tboxs{
         width: 40%;
     }
+    
     #img1:checked  ~ .Tehmine2{
         display: none;
     }
@@ -591,6 +596,38 @@ main{
         display:inline;
      } 
 }
+ @media screen and (max-width:770px) {
+    .Timg label{
+        width: 10px;
+        height: 10px;
+   
+    }
+
+    .Tbox img{
+        width: 90px;
+        height: 90px;
+        transform: translateX(0%);
+    }
+    .Tmm1{
+        font-size: 10px;
+    }
+    .Tm1{
+        font-size:15px ;
+    }
+    .Tehmine1{
+        width: 200px;
+     }
+     .Tehmine2{
+         width: 300px;
+     }
+     .Tehmine3{
+         width: 300px;
+     }
+     .Tbox{
+        gap: 0;
+     }
+
+ }
 
 
 
