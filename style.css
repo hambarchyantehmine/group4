@@ -249,33 +249,6 @@ li{
     content: "<i class=fas fa-users><i class=far fa-chart-bar>";
     font-style: italic;
 }
-/* @media screen and (min-width: 804px) and (max-width: 844px){
-    .Mariam_div1 .Mariam_h2{
-        font-size: 45px;
-    }
-    .Mariam_p{
-        font-size: 20px;
-        line-height: 35px;
-    }
-    .Mariam_div2{
-        flex-wrap: wrap;
-    }
-    .Mariam_2divs{
-        flex-wrap: wrap;
-        margin-top: 30px;
-    }
-    .fa-chart-column, .fa-message, .fa-fingerprint, .fa-users{
-        margin-left: 50%;
-        font-size: 60px;
-        margin-bottom: 20px;
-    }
-    .Mariam_4divs .Mariam_h2{
-        font-size: 35px;
-    }
-    .Mariam_button{
-        padding: 15px 36px;
-    }
-} */
 @media screen and (min-width: 767px) and (max-width: 844px){
     .Mariam_what-we-do{
         padding: 130px 125px;
@@ -332,36 +305,6 @@ li{
         padding: 14px 34px;
     }
 }
-/* @media screen and (min-width: 566px) and (max-width: 575px){
-    .Mariam_what-we-do{
-        padding: 130px 30px;
-    }
-    .Mariam_p{
-        line-height: 35px;
-        font-size: 18.5px;
-    }
-    .Mariam_div2{
-        flex-wrap: wrap;
-    }
-    .Mariam_2divs{
-        flex-wrap: wrap;
-        margin-top: 30px;
-    }
-    .Mariam_4divs{
-        margin-top: 20px;
-    }
-    .fa-chart-column, .fa-message, .fa-fingerprint, .fa-users{
-        margin-left: 50%;
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
-    .Mariam_4divs .Mariam_h2{
-        font-size: 30px;
-    }
-    .Mariam_button{
-        padding: 14px 34px;
-    }
-} */
 @media screen and (min-width: 1px) and (max-width: 574px){
     .Mariam_what-we-do{
         padding: 130px 28px;
