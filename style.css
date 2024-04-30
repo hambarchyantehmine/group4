@@ -188,12 +188,9 @@ li{
 
 .Mariam_what-we-do{
     width: 100%;
-<<<<<<< HEAD
     padding: 100px 90px;
-=======
     height: auto;
     padding: 100px 80px;
->>>>>>> c48318b01206da6ce2c019e41404242815aad751
     font-family: "Raleway", sans-serif;
 }
 .Mariam_div1{
@@ -311,7 +308,6 @@ li{
         margin-left: 50%;
         margin-bottom: 20px;
     }
-<<<<<<< HEAD
     .Mariam_4divs .Mariam_h2{
         font-size: 30px;
     }
@@ -319,8 +315,6 @@ li{
         padding: 14px 34px;
     }
   
-=======
->>>>>>> c48318b01206da6ce2c019e41404242815aad751
 }
 /*Tehmine*/
 
@@ -378,6 +372,8 @@ main{
     transition: all 0.15s ease;
     margin: 10px;
     transform: translateX(50% );
+    width: 100px;
+    height: 100px;
 
 }
 .Tbox input{
@@ -387,16 +383,22 @@ main{
 .Timg{
     display: flex;
     justify-content: center;
-    margin:50px;
+    align-items: center;
+    gap: 10px;
+  padding: 20px;
+   
+
 }
 .Timg label{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: rgb(182, 181, 181);
+    background-color: #a8a8a8;
     cursor: pointer;
+    scroll-behavior: smooth;
     transition: all 0.15s ease;
-    margin: 5px;
+    padding:10px;
+
     
 }
 .Tehmine1{
@@ -421,12 +423,14 @@ main{
     color: white;
     margin: 0 0 1rem;
     text-align: justify;
+    padding:20px;
 }
 .Tm1{
     text-align: right;
     font-style: italic;
     font-size: 20px;
     color: white;
+    padding: 10px;
 }
 .Timg label:hover {
   background: white;
@@ -523,16 +527,37 @@ main{
      } 
 }
  @media screen and (max-width:770px) {
+    .Timg{
+        justify-content: center;
+        gap: 5px;
+        padding: 0;
+    }
     .Timg label{
         width: 10px;
         height: 10px;
-   
+        padding: 0;
+       
     }
-
+  
+   .Tbox{
+    gap: 0;
+   }
+     
     .Tbox img{
         width: 90px;
         height: 90px;
         transform: translateX(0%);
+    }
+    .Tmm1{
+        font-size: 10px;
+        text-align: justify;
+        padding:0px;
+    }
+    .Tm1{
+        text-align: right;
+        font-style: italic;
+        font-size: 10px;
+        padding: 10px;
     }
     .Tmm1{
         font-size: 10px;
@@ -557,18 +582,7 @@ main{
 
 
 
-
 /*Shushan*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    position: relative;
-    
-}
 
 
 .shtitle{
@@ -576,6 +590,8 @@ body{
     display: inline-block;
     justify-content: center;
     align-items: center;
+   width:auto;
+   
 }
 
 
@@ -592,10 +608,7 @@ body{
     color: #707070;
     font-family: "Raleway", sans-serif;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 15px;
-    padding-left: 290px;
-    padding-right: 290px;
+padding: 30px;
 }
 
 .shgallery{
@@ -622,7 +635,6 @@ body{
 
 
 #shbox{
-    
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -662,6 +674,7 @@ img{
     opacity: 0;
     transition: .6s;
     cursor: pointer;
+
 }
 
 .shtext::after{
@@ -715,10 +728,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding-top: 10px;
-    padding-bottom: 50px;
-    padding-left: 560px;
+    padding-bottom: 20px;
 }
 .shlabel label:nth-child(1){
     background-color: #37A;
@@ -774,6 +785,15 @@ img{
     display: none;
  }
  @media screen and (max-width:1000px) {
+    .shtitle{
+     max-width: auto;
+    }
+    .shtitle h2{
+       font-size: 25px;
+    }
+    .shimgsec1{
+        width: auto;
+    }
     .Snone{
         display: inline;
     }
@@ -785,6 +805,9 @@ img{
      }
      #Simg2:checked ~ .shbox2{
         display:inline;
+     }
+     #Simg3:checked ~ .shbox8{
+        display: none;
      }
      #Simg3:checked ~ .shbox3{
         display:inline;
